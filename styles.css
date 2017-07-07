@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+  }
+  a:hover {
+    color: tomato;
+  }
+
+
+header {
+  padding-top: 10px;
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  header nav ul li a img {
+    height: 13px;
+  }
+
+  header h1 {
+    line-height: 1em;
+  }
+
+  .text {
+    opacity: 0;
+  }
+  .logo-text {
+    visibility: visible;
+    color: #BA8058;
+  }
+
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 28px;
+}
+  main ul {
+    padding: 0;
+  }
+    main li {
+      display: inline-block;
+      color: #39ADD1;
+      margin-right: 20px;
+    }
+      main li img {
+        margin-bottom: 15px;
+      }
+      main li span {
+        margin-left: -40px;
+      }
+      main li:last-child {
+        margin-right: 0;
+      }
+
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+/* SVG Styling */
+
+main svg {
+  width: 170px;
+  height: 170px;
+}
+
+nav .st0 {
+  fill: #39ADD1;
+  margin: 5em;
+}
+
+nav .st0:hover {
+  fill: tomato;
+}
+
+.nav-icon {
+  transition: transform .6s ease-out;
+}
+
+.nav-icon:hover {
+  transform: scale(1.2) rotate(15deg);
+  t
+}
+
+.logo {
+  width: 140px;
+  height: 120px;
+}
+
+.red .st0,
+.sable .st3,
+.bl-tn .st0 {
+  fill: #BA8058;
+}
+
+.red .st1,
+.fawn .st1,
+.sable .st1,
+.bl-tn .st2 {
+  fill: #FBFEFF;
+}
+
+.red .st2,
+.fawn .st2,
+.sable .st2,
+.bl-tn .st3 {
+  fill: #2D3339;
+}
+
+.red .st3 {
+  fill: #EAAA7F;
+}
+
+.fawn .st0 {
+  fill: #EAAA7F;
+}
+
+.fawn .st3 {
+  fill: #F4C6A6;
+}
+
+.sable .st0 {
+  fill: #844B24;
+}
+
+.bl-tn .st1 {
+  fill: #52595F;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 425px) {
+  .logo-text {
+    visibility: hidden;
+  }
+  .text {
+    opacity: 1;
+  }
+}

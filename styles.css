@@ -104,17 +104,16 @@ nav .st0 {
   margin: 5em;
 }
 
-nav .st0:hover {
+a:hover .st0 {
   fill: tomato;
 }
 
 .nav-icon {
-  transition: transform .6s ease-out;
+  transition: all .6s ease-out;
 }
 
-.nav-icon:hover {
+a:hover .nav-icon {
   transform: scale(1.2) rotate(15deg);
-  t
 }
 
 .logo {
